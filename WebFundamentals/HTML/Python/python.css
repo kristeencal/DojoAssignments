@@ -1,0 +1,82 @@
+#header {
+  display: inline-block;
+  height: 100px;
+  width: 970px;
+}
+#header .logo{
+  background-color: purple;
+  display: inline-block;
+  height: inherit;
+  width: 400px;
+}
+#header .header_right{
+  display: inline-block;
+}
+#header .list{
+  background-color: green;
+  display: block;
+  height: 50px;
+  width: 400px;
+}
+#header .search_box {
+  background-color: pink;
+  display: block;
+  height: 50px;
+  width: 400px;
+}
+#navigation {
+  background-color: orange;
+height: 50px;
+width: 970px;
+}
+#content {
+  display: block;
+  width: 970px;
+}
+#content .top_content {
+  display: inline-block;
+  height: 150px;
+  width: 970px;
+}
+#content .top_content_left {
+  background-color: red;
+  display: inline-block;
+  height: 150px;
+  width: 400px;
+  margin-left: 0px;
+  margin-right: auto;
+  }
+  #content .top_content_right {
+    background-color: maroon;
+    display: inline-block;
+    height: 150px;
+    width: 400px;
+    margin-right: 0px;
+    margin-left: auto;
+  }
+#content .bottom_content {
+  height: 100px;
+  width: 970px;
+}
+#content .bottom_content_left {
+  background-color: yellow;
+  display: inline-block;
+  height: 100px;
+  width: 400px;
+  margin-left: 0px;
+  margin-right: auto;
+}
+#content .bottom_content_right {
+  background-color: grey;
+  display: inline-block;
+  height: 100px;
+  width: 400px;
+  margin-right: 0px;
+  margin-left: auto;
+}
+#footer {
+  display: inline-block;
+  background-color: black;
+  height: 50px;
+  width: 970px;
+}

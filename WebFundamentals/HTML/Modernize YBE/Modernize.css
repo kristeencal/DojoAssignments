@@ -1,0 +1,60 @@
+
+#wrapper {height: 900px; width: 900px}
+#header {display: inline;
+color: white;
+padding: 0px;
+margin: 0px;
+background-color: #1A1A1A;}
+h1 {margin: 0px;
+padding: 0px;
+width: 50px;
+display: inline;}
+h2 {margin: 0px;
+padding: 0px;
+width: 50px;
+display: inline;}
+h3 {margin: 0px;
+padding: 0px;
+width: 50px;
+display: inline;}
+.phone {margin: 0px;
+padding: 0px;
+width: 50px;
+display: inline;}
+
+#navigation {color: white;
+  height: 50px;
+  width: 900px;
+background-color: grey;}
+
+#image {background-color: purple;
+height: 250px;
+width: 900px;}
+#main_content_top {background-color: grey;
+height: 100px;
+width: 900px;}
+
+ul li{display: inline;
+background-color: grey;}
+
+.content_icon1 {display: inline;}
+
+#main_content_bottom {background-color: black;
+height: 100px;
+width: 900px;
+color: white;
+display: inline-block;}
+.w3-btn {color: white;
+background-color: #EF8E69;
+border-radius: 5px;
+padding: 5px;
+width: 100px;
+height:50px;}
+#footer {background-color: grey;
+height: 100px;
+width: 900px;
+}
+.photos { display: inline;
+margin-right: 10px;
+padding: 10px}
+p {display: inline;}

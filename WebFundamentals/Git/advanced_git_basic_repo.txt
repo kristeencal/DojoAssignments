@@ -1,0 +1,88 @@
+
+kristeen@kristeen-PC MINGW64 ~/desktop
+$ pwd
+/c/Users/kristeen/desktop
+
+kristeen@kristeen-PC MINGW64 ~/desktop
+$ ls
+'~$mplete List of DPR1 ORAL EXAM QUESTIONS.docx'  'displaying blocks.html'  git-images.zip                 'Misc Documents'/                    'second semester'/
+about.txt                                         DojoAssignmentRepo.txt    GoogleVoiceAndVideoSetup.exe*  'Misc Photos'/                       Spotify.lnk*
+'Bonanza photos'/                                 DojoAssignments/          hello_world.html               'plotting blocks html and css.html'  styles.css
+'Chrome App Launcher.lnk'*                        'Estrogen Foods'/         'Indentation Practice.txt'     'plotting blocks style.css'          test/
+commands.txt                                      'fake blog.html'          index.html                     'plotting blocks.css'                test1/
+desktop.ini                                       Food/                     jsloups.png                    'plotting blocks.html'               'Venmo - Share Payments.url'
+'Displaying Blocks'/                              git_practice/             Landscape/                     python-BSD.png                       WebFundamentals/
+'displaying blocks.css'                           Git-2.11.0.3-64-bit.exe*  'learning to commit.txt'       'Registration Form 1.html'
+
+kristeen@kristeen-PC MINGW64 ~/desktop
+$ clear
+
+kristeen@kristeen-PC MINGW64 ~/desktop
+$ mkdir basic_repo
+
+kristeen@kristeen-PC MINGW64 ~/desktop
+$ cd basic_repo
+
+kristeen@kristeen-PC MINGW64 ~/desktop/basic_repo
+$ git init
+Initialized empty Git repository in C:/Users/kristeen/Desktop/basic_repo/.git/
+
+kristeen@kristeen-PC MINGW64 ~/desktop/basic_repo (master)
+$ touch repo1.txt
+
+kristeen@kristeen-PC MINGW64 ~/desktop/basic_repo (master)
+$ touch repo2.txt
+
+kristeen@kristeen-PC MINGW64 ~/desktop/basic_repo (master)
+$ touch repo3.txt
+
+kristeen@kristeen-PC MINGW64 ~/desktop/basic_repo (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        repo1.txt
+        repo2.txt
+        repo3.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+kristeen@kristeen-PC MINGW64 ~/desktop/basic_repo (master)
+$ git add repo1.txt
+
+kristeen@kristeen-PC MINGW64 ~/desktop/basic_repo (master)
+$ git commit -m "added description"
+[master (root-commit) 776c08f] added description
+ 1 file changed, 1 insertion(+)
+ create mode 100644 repo1.txt
+
+kristeen@kristeen-PC MINGW64 ~/desktop/basic_repo (master)
+$
+
+kristeen@kristeen-PC MINGW64 ~/desktop/basic_repo (master)
+$
+
+kristeen@kristeen-PC MINGW64 ~/desktop/basic_repo (master)
+$
+
+kristeen@kristeen-PC MINGW64 ~/desktop/basic_repo (master)
+$
+
+kristeen@kristeen-PC MINGW64 ~/desktop/basic_repo (master)
+$ git remote add origin https://github.com/kristeencal/basic_repo.git
+
+kristeen@kristeen-PC MINGW64 ~/desktop/basic_repo (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 248 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+Branch master set up to track remote branch master from origin.
+To https://github.com/kristeencal/basic_repo.git
+ * [new branch]      master -> master
+
+kristeen@kristeen-PC MINGW64 ~/desktop/basic_repo (master)
+$

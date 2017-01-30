@@ -1,0 +1,15 @@
+.wrapper {width: 970px; display: inline; background-color: blue}
+
+#container {color:white; background-color:red; display:block;
+border-radius: 25px; background: : #73AD21; padding: 20px; width: 970px; height: 40px;}
+
+#main {display: flex;}
+
+
+#side_menu {color:aqua; background-color:darkcyan; border-radius: 25px; background: darkcyan; padding: 20px; width: 200px; height: 200px; text-align: justify; margin: 10px;}
+#side_menu ul {max-height: 200px; max-width: 200px}
+#side_menu {font-size: 12px;}
+
+#main_content {color: white; background-color: black; width: 745px; height: 500px; border-radius: 25px; margin: 10px}
+
+#footer {color: white; background-color: grey; height: 50px; width: 970px; border-radius: 25px}

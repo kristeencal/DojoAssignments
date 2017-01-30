@@ -1,0 +1,68 @@
+Microsoft Windows [Version 10.0.10586]
+(c) 2015 Microsoft Corporation. All rights reserved.
+
+C:\Users\kristeen>mkdir[test]
+
+C:\Users\kristeen> pkdir[test]
+'pkdir[test]' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\kristeen>pkdir[test]
+'pkdir[test]' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\kristeen>pcdir[test]
+'pcdir[test]' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\kristeen>touch[index.html]
+'touch[index.html]' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\kristeen>pcdir test
+'pcdir' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\kristeen>acerdir test
+'acerdir' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\kristeen>touch index.html
+'touch' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\kristeen> touch index.html
+'touch' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\kristeen> copy index.html index_2.html
+The system cannot find the file specified.
+
+C:\Users\kristeen>del /p styles.css
+Could Not Find C:\Users\kristeen\styles.css
+
+C:\Users\kristeen>md destination
+
+C:\Users\kristeen>mv index2a destination1
+'mv' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\kristeen>$ open
+'$' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\kristeen>$open destination1
+'$open' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\kristeen>$ open destination1
+'$' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\kristeen>$ open .
+'$' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\kristeen>$ rm -1 destination1 remove destination1?
+'$' is not recognized as an internal or external command,
+operable program or batch file.

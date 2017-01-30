@@ -1,0 +1,199 @@
+
+kristeen@kristeen-PC MINGW64 ~
+$ cd desktop
+
+kristeen@kristeen-PC MINGW64 ~/desktop
+$ cd test
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master)
+$ git log
+fatal: your current branch 'master' does not have any commits yet
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master)
+$ git commit -m created git repository
+error: pathspec 'git' did not match any file(s) known to git.
+error: pathspec 'repository' did not match any file(s) known to git.
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master)
+$ ls
+aboutMe.txt
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master)
+$ touch index.html
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master)
+$ touch style.css
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/kristeen/Desktop/test/.git/
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master)
+$ git commit -m created git repository
+error: pathspec 'git' did not match any file(s) known to git.
+error: pathspec 'repository' did not match any file(s) known to git.
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master)
+$ ls
+aboutMe.txt  index.html  style.css
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master)
+$ git commit -m "updated aboutMe"
+On branch master
+
+Initial commit
+
+Untracked files:
+        aboutMe.txt
+        index.html
+        style.css
+
+nothing added to commit but untracked files present
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master)
+$ git add aboutMe.txt
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master)
+$ git add index.html
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master)
+$ git add style.css
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master)
+$ git commit -m "updated aboutMe"
+[master (root-commit) 3196ab7] updated aboutMe
+ 3 files changed, 1 insertion(+)
+ create mode 100644 aboutMe.txt
+ create mode 100644 index.html
+ create mode 100644 style.css
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master)
+$ git commit -m "added favorite movie to aboutMe"
+On branch master
+Changes not staged for commit:
+        modified:   aboutMe.txt
+
+no changes added to commit
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master)
+$ git add aboutMe.txt
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master)
+$ git commit -m "added favorite movie to aboutMe"
+[master c46bab5] added favorite movie to aboutMe
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master)
+$ git log
+commit c46bab531e2bac753780208c3df9fa7c30ae1f39
+Author: ChristineI <kristeen.cal@gmail.com>
+Date:   Wed Jan 25 12:07:45 2017 -0800
+
+    added favorite movie to aboutMe
+
+commit 3196ab7213c6f99ee0c1b05f462ebc65ac00705d
+Author: ChristineI <kristeen.cal@gmail.com>
+Date:   Wed Jan 25 12:05:14 2017 -0800
+
+    updated aboutMe
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master)
+$ git revert -n added favorite movie to aboutMe
+fatal: bad revision 'added'
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master)
+$ git revert <commit hash>
+bash: syntax error near unexpected token `newline'
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master)
+$ git revert <commithash>
+bash: syntax error near unexpected token `newline'
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master)
+$ git revert added favorite movie to aboutMe
+fatal: bad revision 'added'
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master)
+$ ^C
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master)
+$ git revert HEAD
+error: Your local changes to the following files would be overwritten by merge:
+        aboutMe.txt
+Please commit your changes or stash them before you merge.
+Aborting
+fatal: revert failed
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master)
+$ ^C
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master)
+$ git add aboutMe.txt
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   aboutMe.txt
+
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master)
+$ git commit -m "updated aboutMe again"
+[master bd024c7] updated aboutMe again
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master)
+$ git log
+commit bd024c7682dcc331ab0617223167a29b354ad66f
+Author: ChristineI <kristeen.cal@gmail.com>
+Date:   Wed Jan 25 12:49:08 2017 -0800
+
+    updated aboutMe again
+
+commit c46bab531e2bac753780208c3df9fa7c30ae1f39
+Author: ChristineI <kristeen.cal@gmail.com>
+Date:   Wed Jan 25 12:07:45 2017 -0800
+
+    added favorite movie to aboutMe
+
+commit 3196ab7213c6f99ee0c1b05f462ebc65ac00705d
+Author: ChristineI <kristeen.cal@gmail.com>
+Date:   Wed Jan 25 12:05:14 2017 -0800
+
+    updated aboutMe
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master)
+$ git revert -n HEAD
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master|REVERTING)
+$ git add aboutMe.txt
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master|REVERTING)
+$ git status
+On branch master
+You are currently reverting commit bd024c7.
+  (all conflicts fixed: run "git revert --continue")
+  (use "git revert --abort" to cancel the revert operation)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   aboutMe.txt
+
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master|REVERTING)
+$ git commit -m "updated aboutme with hello"
+[master 83e03a6] updated aboutme with hello
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master)
+$ git revert -n HEAD
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master|REVERTING)
+$ git commit -m "added and deleted the hello"
+[master fc160d2] added and deleted the hello
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+kristeen@kristeen-PC MINGW64 ~/desktop/test (master)

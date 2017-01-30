@@ -1,0 +1,104 @@
+.main{
+  width: 758px;
+  height: auto;
+  background-color: red;
+}
+#navBar {
+  display: block;
+  background-color: black;
+  width: 758px;
+  height: auto;
+}
+#navBarLogo {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  background-color: aqua;
+}
+#navBarRight {
+  display: inline-block;
+  height: 200px;
+  width: 554px;
+  background-color: orange;
+  vertical-align: top;
+}
+#navBarRight ul li {display: inline;
+width: 400px;
+}
+#navBarRight ul li a {
+  color: white;}
+#mainSideBar {
+  height: 525px;
+  width: 200px;
+  color: white;
+  background-color: #153F43;
+  display: inline-block;
+  }
+.mainRight{
+  height: 535px;
+  width: 554px;
+  background-color: yellow;
+  vertical-align: top;
+  display: inline-block;
+  margin-left: : 15px;
+}
+#mainTop {
+  display: block;
+  vertical-align: top;
+  /* background-color: purple; */
+}
+.mainRightTopBox1 {
+  height: 150px;
+  width: 150px;
+  color: white;
+  background-color: #153F43;
+  display: inline-block;
+  margin: 15px;
+}
+.mainRightTopBox2 {
+  height: 150px;
+  width: 150px;
+  color: white;
+  background-color: #153F43;
+  display: inline-block;
+  margin: 15px;
+}
+.mainRightTopBox3 {
+  height: 150px;
+  width: 150px;
+  color: white;
+  background-color: #153F43;
+  display: inline-block;
+  margin: 15px;
+}
+#mainMiddle {display: block;vertical-align: top;width: 553px;/* background-color: pink; */height: 200px;}
+.mainMiddleBox1 {
+  height: 150px;
+  width: 240px;
+  color: white;
+  background-color: #153F43;
+  display: inline-block;
+  margin: 15px;
+}
+.mainMiddleBox2 {
+  height: 150px;
+  width: 240px;
+  color: white;
+  background-color: #153F43;
+  display: inline-block;
+  margin: 15px;
+}
+#mainBottom {
+  display: block;
+  vertical-align: top;
+  /* background-color: teal; */
+  height: 200px;
+  margin-top: -25px;
+}
+#mainBottomBox {
+  height: 150px;
+  width: 515px;
+  color: white;
+  background-color: #153F43;
+  margin: 0px 0 0 15px;
+ }
