@@ -1,0 +1,24 @@
+var pay = 0.01;
+var reward = 0;
+var arr = []
+for (var i =1; i<=30; i++){
+ console.log(pay);
+ rewar + = pay;
+ pay = pay + pay;
+}
+console.log(reward);
+
+var fewBillion = function (penny, rewardDays) {
+ var arr = [];
+ var money;
+ for (var i = 1; i <=rewarddays; i++){
+	if(i===1){
+		money=penny;
+		arr.push(money); i =>arr.push(key value, money);
+console.log(fewBillion(0.01,30);
+} else{
+	money=money+money//
+	arr.push (money);
+}
+return arr;
+}

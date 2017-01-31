@@ -18,10 +18,10 @@ console.log(feelings);
 console.log(idea);
 
 <!--Boolean-->
-var codingDojoOpen = yes;
-var codingDojoOpen = no;
+var codingDojoOpen = true;
+var codingDojoOpen = false;
 console.log(codingDojoOpen);
 
-Undefined Variable
-var beltGrade= ();
+<!--Undefined Variable-->
+var beltGrade= undefined;
 console.log(beltGrade);

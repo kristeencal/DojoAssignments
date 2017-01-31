@@ -1,0 +1,12 @@
+var myBirthday = function (x) {
+	while (x>0){
+	if(x>30){
+		console.log("sad");
+	if (x<30) {
+		console.log("excited");
+	}if (x<5) {
+		print(woo hoo);
+	console.log (x + "More days left");
+		x--;
+} 
+	console.log (Happy Birthday);

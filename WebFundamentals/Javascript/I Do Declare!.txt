@@ -1,18 +1,27 @@
-Number
+<!--Number-->
 
-var my height = 5;
-var my weight = 100;
-var my age = 20;
-var my birthday = 21;
+var myHeight = 5;
+var myWeight = 100;
+var myAge = 20;
+var myBirthday = 21;
+console.log(myHeight);
+console.log(myWeight);
+console.log(myAge);
+console.log(myBirthday);
 
-String
+<!--String-->
 var thoughts = "love";
 var feelings = 'great';
 var idea = "happy";
+console.log(thoughts);
+console.log(feelings);
+console.log(idea);
 
-Boolean
+<!--Boolean-->
 var codingDojoOpen = yes;
-var codingDojoOpen= no;
+var codingDojoOpen = no;
+console.log(codingDojoOpen);
 
-Undefined Variable
-var beltGrade= ();
+<!--Undefined Variable-->
+var beltGrade= undefined;
+console.log(beltGrade);
