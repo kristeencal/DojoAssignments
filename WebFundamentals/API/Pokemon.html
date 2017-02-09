@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pokemon</title>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"</script>"></script>
+  <script type="text/javascript">
+    var arr = [];
+    function pokeLoop() {
+      var x = 1;
+      for (var i = 0; i < 152; i++) {
+        x +=1;
+        arr.push("<img src='http://pokeapi.co/media/img/" + x + ".png'>");
+      }
+      return (arr);
+    }
+      $(document).ready(function() {
+        $(document).on("click",".btn", function (){
+          $(".content").append(pokeLoop());
+        });
+      });
+</script>
+<style>
+  .content {
+    width: auto;
+    height: auto;
+  }
+  </style>
+</head>
+<body>
+<div class="content">
+</div>
+<button type="button" class="btn">POKEGO</button>
+</body>
+</html>

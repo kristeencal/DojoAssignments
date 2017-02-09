@@ -1,0 +1,35 @@
+Part 1
+
+var students = [ 
+     {first_name:  'Michael', last_name : 'Jordan'},
+     {first_name : 'John', last_name : 'Rosales'},
+     {first_name : 'Mark', last_name : 'Guillen'},
+     {first_name : 'KB', last_name : 'Tonel'}
+]
+
+printArray (students[]){
+	for (var i=0; i<students.length;i++){
+	console.log(students[i]);
+	}
+}
+
+-----------------------------
+Part 2 (Optional)
+
+dictionary.text is 
+
+Michael Jordan John Rosales Mark Guillen KB Tonel Michael Choi Martin Puryear
+
+with open('dictionary.txt') as f:
+	f= f.read().replace(' ', ' ')
+
+new = []
+let = []
+for i in f:
+	let.append(i)
+	if i.count(i) > 1;
+		i.count(i) ==1
+	else:
+		new = sorted([i = ' ' + str(f.count(i)) for i in f])
+for o in new:
+	print(o)

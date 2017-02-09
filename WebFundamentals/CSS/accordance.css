@@ -1,0 +1,147 @@
+.container {
+  height: 1400px;
+  width: auto;
+  background-color: black;
+}
+.navTop {
+  height: 40px;
+  width: 1000px;
+  background-color: yellow;
+}
+.navLeft {
+  height: 40px;
+  width: 40px;
+  background-color: aqua;
+  display: inline-block;
+  vertical-align: top;
+}
+.navMid {
+  height: 40px;
+  width: 500px;
+  background-color: #FF00FF;
+  display: inline-block;
+}
+.navSearch {
+  height: 40px;
+  width: 300px;
+  background-color: navy;
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+  padding-top: 5px;
+}
+.imageA {
+  height: 300px;
+  width: 1000px;
+  background-color: orange;
+}
+.nav2 {
+  height: 60px;
+  width: 1000px;
+  background-color: green;
+  display: block;
+}
+.navGrey ul li a {
+  display: inline-block;
+  text-align: center;
+  list-style: none;
+  width: 100px;
+  height: 60px;
+  vertical-align: top;
+}
+.mid {
+  height: 100px;
+  width: 1000px;
+  background-color: purple;
+  display: block;
+}
+.midLeft {
+  height: 100px;
+  width: 700px;
+  background-color: #8A2BE2;
+  color: grey;
+  display: inline-block;
+}
+.midLeft h1 {
+  font-family: Verdana;
+  font-size: 100%;
+}
+.midButton {
+  height: 100px;
+  width: 200px;
+  background-color: #A52A2A;
+  display: inline-block;
+  vertical-align: top;
+}
+.midButton button {
+  background-color: #4E88AD;
+  color: white;
+}
+.extras {
+  height: 300px;
+  width: 1000px;
+  background-color: teal;
+}
+.boxA, .boxB, .boxC, .boxD {
+  height: 300px;
+  width: 200px;
+  background-color: #DC143C;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 15px;
+}
+.boxA button {
+  background-color: #5EADE8;
+  color: white;
+}
+.empty {
+  height: 60px;
+  width: 1000px;
+  background-color: lightcoral;
+}
+.more {
+  height: 300px;
+  width: 1000px;
+  background-color: lime;
+}
+.more1, .more2, .more3, .more4, .more5, .more6{
+  height: 300px;
+  width: 150px;
+  background-color: #00008B;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: top;
+  list-style: none;
+}
+ul {
+  list-style: none;
+}
+.contact {
+  height: 150px;
+  width: 1000px;
+  background-color: maroon;
+  display: block;
+}
+.contactLeft {
+  height: 150px;
+  width: 200px;
+  display: inline-block;
+  background-color: #008B8B;
+  vertical-align: top;
+}
+
+.contactMid {
+  height: 150px;
+  width: 200px;
+  display: inline-block;
+  background-color: #B8860B;
+  vertical-align: top;
+}
+.contactRight {
+  height: 150px;
+  width: 300px;
+  display: inline-block;
+  background-color: #A9A9A9;
+  vertical-align: top;
+}

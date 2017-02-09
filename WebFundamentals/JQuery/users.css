@@ -1,0 +1,14 @@
+table, tr, th {
+  height: 100px;
+  width: 450px;
+  border-style: 1px solid black;
+  padding: 5px;
+}
+table h1 {
+  width: 90px;
+  margin: 0px;
+}
+table p {
+  width: 90px;
+  height: 450px;
+}

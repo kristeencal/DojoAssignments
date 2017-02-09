@@ -1,0 +1,73 @@
+/*body {*/
+  /*height: 500px;*/
+  /*width: auto;*/
+  /*background-color: black;*/
+/*}*/
+.container {
+  height: 1900px;
+  width: auto;
+  /*background-color: teal;*/
+}
+  .header {
+    height: 200px;
+    width: 900px;
+    /*background-color: red;*/
+    display: block;
+  }
+  .headerLeft {
+    height: 200px;
+    width: 400px;
+    background-color: #E52B50;
+    display: inline-block;
+  }
+  .headerRight{
+    height: 200px;
+    width: 400px;
+    background-color: #9966CC;
+    display: inline-block;
+  }
+  .navigationBar {
+    height: 100px;
+    width: 900px;
+    background-color: orange;
+  }
+  .image {
+    height: 400px;
+    width: 900px;
+    background-color: yellow;
+  }
+  .midContentTop {
+    height: 200px;
+    width: 900px;
+    background-color: green;
+  }
+  .box1, .box2, .box3, .box4 {
+    height: 200px;
+    width: 200px;
+    background-color: 	#FF91AF;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  /*.box2 {*/
+    /*height: 200px;*/
+    /*width: 150px;*/
+    /*background-color: 	#21ABCD;*/
+    /*display: inline-block;*/
+  /*}*/
+  .midContentBottom {
+    height: 200px;
+    width: 900px;
+    background-color: blue;
+  }
+  .midLeft, .midRight {
+    height: 200px;
+    width: 400px;
+    background-color: 	#00CED1;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  .footer {
+    height: 300px;
+    width: 900px;
+    background-color: purple;
+  }

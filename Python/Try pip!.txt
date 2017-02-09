@@ -1,0 +1,151 @@
+1. pip install Django
+
+pip is run from the command line, not the Python interpreter. It is a program that installs modules, so you can use them from Python. Once you have installed the module, then you can open the Python shell and do import selenium.
+
+The Python shell is not a command line, it is an interactive interpreter. You type Python code into it, not commands.
+
+Description
+
+pip install installs packages from:
+
+PyPI (and other indexes) using requirement specifiers.
+VCS project urls.
+Local project directories.
+Local or remote source archives.
+pip also supports installing from "requirements files", which provide an easy way to specify a whole environment to be installed.
+
+Overview
+
+Pip install has several stages:
+
+Identify the base requirements. The user supplied arguments are processed here.
+Resolve dependencies. What will be installed is determined here.
+Build wheels. All the dependencies that can be are built into wheels.
+Install the packages (and uninstall anything being upgraded/replaced).
+Argument Handling
+When looking at the items to be installed, pip checks what type of item each is, in the following order:
+
+Project or archive URL.
+Local directory (which must contain a setup.py, or pip will report an error).
+Local file (a sdist or wheel format archive, following the naming conventions for those formats).
+A requirement, as specified in PEP 440.
+Each item identified is added to the set of requirements to be satisfied by the install.
+
+2. pip list
+
+a. List installed packages.
+
+$ pip list
+docutils (0.10)
+Jinja2 (2.7.2)
+MarkupSafe (0.18)
+Pygments (1.6)
+Sphinx (1.2.1)
+
+b. List outdated packages (excluding editables), and the latest version available.
+
+$ pip list --outdated
+docutils (Current: 0.10 Latest: 0.11)
+Sphinx (Current: 1.2.1 Latest: 1.2.2)
+
+c. List installed packages with column formatting.
+
+$ pip list --format columns
+Package Version
+------- -------
+docopt  0.6.2
+idlex   1.13
+jedi    0.9.0
+
+d. List outdated packages with column formatting.
+
+$ pip list -o --format columns
+Package    Version Latest Type
+---------- ------- ------ -----
+retry      0.8.1   0.9.1  wheel
+setuptools 20.6.7  21.0.0 wheel
+
+e. List packages that are not dependencies of other packages. Can be combined with other options.
+
+$ pip list --outdated --not-required
+docutils (Current: 0.10 Latest: 0.11)
+
+f. Use legacy formatting
+
+$ pip list --format=legacy
+colorama (0.3.7)
+docopt (0.6.2)
+idlex (1.13)
+jedi (0.9.0)
+
+g. Use json formatting
+
+$ pip list --format=json
+[{'name': 'colorama', 'version': '0.3.7'}, {'name': 'docopt', 'version': '0.6.2'}, ...
+
+h. Use freeze formatting
+
+$ pip list --format=freeze
+colorama==0.3.7
+docopt==0.6.2
+idlex==1.13
+jedi==0.9.0
+
+3. pip install Django
+
+pip is not run from the Python shell. If you run pip install Django from the Command prompt, it will install the latest Django 1.5.
+
+4. pip freeze
+
+pip freeze outputs installed packages in requirements format.
+
+packages are listed in a case-insensitive sorted order
+
+5. 
+
+6. pip uninstall Django
+
+pip uninstall uninstalls packages.
+
+Example
+
+To Uninstall a package such as simplejson:
+
+$ pip uninstall simplejson
+Uninstalling simplejson:
+  /home/me/env/lib/python2.7/site-packages/simplejson
+  /home/me/env/lib/python2.7/site-packages/simplejson-2.2.1-py2.7.egg-info
+Proceed (y/n)? y
+  Successfully uninstalled simplejson
+
+7. pip show Django
+
+pip show shows information about one or more installed packages.
+
+Example
+
+Show information about the package sphinx:
+
+$ pip show sphinx
+Name: Sphinx
+Version: 1.4.5
+Summary: Python documentation generator
+Home-page: http://sphinx-doc.org/
+Author: Georg Brandl
+Author-email: georg@python.org
+License: BSD
+Location: /my/env/lib/python2.7/site-packages
+
+8. pip search Flask
+
+pip search [options] <query> is used to
+search for PyPI packages whose name or summary contains <query>.
+
+Examples
+
+Search for "peppercorn"
+
+$ pip search peppercorn
+pepperedform    - Helpers for using peppercorn with formprocess.
+peppercorn      - A library for converting a token stream into [...]
+Requires: docutils, snowballstemmer, ala

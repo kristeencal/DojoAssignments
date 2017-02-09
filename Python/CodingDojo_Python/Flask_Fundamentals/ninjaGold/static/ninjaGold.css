@@ -1,0 +1,28 @@
+.locations{
+  height: 200px;
+  width: 150px;
+  border: 1px solid silver;
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+}
+.log{
+  width: 600px;
+  height: 200px;
+  margin: 10px;
+  border: 1px solid silver;
+  overflow: scroll;
+}
+.won, .lost{
+  padding: 0px;
+  margin: 0px;
+  display: block;
+}
+.won{
+  color: green;
+}
+.lost{
+  color: red;
+}
+.locations_wrapper{
+}
