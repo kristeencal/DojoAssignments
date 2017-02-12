@@ -10,4 +10,9 @@ def get_matching_words(regex):
 print get_matching_words(r"v")
 print get_matching_words(r"ss")
 print get_matching_words(r"e$")
-print get_matching_words(r"b" + r"*" + r"b")
+print get_matching_words(r"b\wb")
+print get_matching_words(r"b\w*b")
+
+print get_matching_words(r"a.*e.*i.*o.*u")
+print get_matching_words(r"^[regular expression]*$")
+print get_matching_words(r"([A-Za-z])\1")

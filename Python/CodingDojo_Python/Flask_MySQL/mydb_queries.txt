@@ -1,0 +1,11 @@
+SELECT * 
+FROM address;
+
+
+SELECT * 
+FROM dojos
+ WHERE id = 2;
+
+SELECT * 
+FROM Columns
+ WHERE city = San Jose;
