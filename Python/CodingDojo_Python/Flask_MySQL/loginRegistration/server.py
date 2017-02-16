@@ -1,5 +1,6 @@
 from flask import Flask, render_template, redirect, flash, session, url_for
-from mysqlconnection import MySQLConnector
+from mysqlconnection import MySQLConnector BcryptS
+from flask.ext.bcrypt import
 import re
 
 app = Flask(__name__)
