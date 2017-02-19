@@ -1,0 +1,6 @@
+Django Environment
+
+kristeen@kristeen-PC MINGW64 ~/Desktop/DojoAssignments/Python/CodingDojo_Python/myEnvironments (master)
+
+
+Flask Environment
