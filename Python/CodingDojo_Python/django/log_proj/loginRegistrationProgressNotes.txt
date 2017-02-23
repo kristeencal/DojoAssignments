@@ -1,0 +1,24 @@
+Login and Registration Progress Notes
+
+from __future__import unicode literals
+from django.contrib import messages
+from django.db.import models
+import re, bcrypt
+
+<--html-->
+
+
+<h5>Registration</h5>
+
+<input type="text" id="first_name" name="first_name" value=" ">
+<input type="text" id="last_name" name="first_name" value=" ">
+<input type="text" id="email" name="email" value=" ">
+<input type="password" id="password" name="password" value=" ">
+<input type="password" id="password_confirm" name="password_confirm" value=" ">
+
+<input type="submit" value="Register">
+
+<input type="email" id="email" name="email" value=" ">
+<input type="password" id="password" name="password" value=" ">
+
+<input type="submit" value="Login">

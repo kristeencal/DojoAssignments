@@ -1,0 +1,54 @@
+Sports ORM 2 Notes
+
+1. Combine
+"leagues": Leagues.objects.filter(name_contains="conference")
+"leagues": Leagues.objects.filter(name_contains="atlantic")
+"leagues": Leagues.objects.filter(sport="soccer"):Players
+
+2. incorporate .curr_team
+"teams": Teams.objects.filter(location_contains="Boston")
+"teams": Teams. objects.filter(team_name_contains="Penguins")
+
+3. incorporate .curr_team
+"leagues": Leagues.objects.filter(sport="Baseball")
+"leagues": Leagues.objects.filter(name_contains="conference")
+
+4. combine
+"leagues": Leagues.objects.filter(name_contains="American")
+"leagues": Leagues.objects.filter(sport="football")
+"players": Pllayers.objects.filter(last_name="Lopez")
+
+5. "leagues": Leagues.objects.filter(sport="football")
+
+6. combine
+"players": Players.objects.filter(first_name="Sophia")
+"teams": Teams.objects.all()
+
+7. combine
+"players": Players.objects.filter(first_name="Sophia")
+"leagues": Leagues.objects.all()
+
+8.  combine
+"players": Players.objects.filter(last_name="Flores").exclude.curr_team
+"teams": Teams.objects.filter(location_contains="Washington")
+"teams": Teams.objects.filter(team_name_contains="Roughriders")
+
+9. combine
+"teams": Teams.objects.all()
+"players": Players.objects.filter(first_name="Samuel")
+players": Players.objects.filter(last_name="Evans")
+
+10. combine
+"teams": Teams.objects.filter(location_contains="Manitoba")
+"teams": Teams.objects.filter(team_name_contains="Tiger-Cats")
+
+11. combine
+"teams": Teams.objects.filter(team_name_contains="Vikings")
+"teams": Teams.objects.filter(location_contains="Wichita").exclude curr_team
+
+13.combine
+"leagues": Leagues.objects.filter(name_contains="atlantic")
+"leagues": Leagues.objects.filter(sport="Baseball")
+"players": Players.objects.filter(first_name="Joshua")
+
+
