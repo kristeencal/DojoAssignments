@@ -20,13 +20,13 @@ function stringReturnTwo () {
   var string2= 'This is getting easier';
   return string2;
 }
-
+// 
 // function caller (a) {
 //   if typeof(a) = function () {
 //     a = 'invoked';
 //   }
 // }
-
+//
 // function myDoubleConsoleLog (a,b) {
 //   var a = function () {
 //     console.log(1);
@@ -38,14 +38,14 @@ function stringReturnTwo () {
 //     console.log (a,b);
 //   }
 // }
-
-function caller2 (a) {
-  var stringy = 'starting';
-  var 2 = 'ending';
-  console.log(stringy);
-  if typeof(a) = function () {
-    a = 'changed';
-  }
-  return ('interesting');
-}
-function caller2(myDoubleConsoleLog);
+//
+// function caller2 (a) {
+//   var stringy = 'starting';
+//   var 2 = 'ending';
+//   console.log(stringy);
+//   if typeof(a) = function () {
+//     a = 'changed';
+//   }
+//   return ('interesting');
+// }
+// function caller2(myDoubleConsoleLog);
