@@ -1,0 +1,12 @@
+{
+  "name": "surveyform",
+  "description": "routing an submitting a form",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "ejs": "^2.3.3",
+    "express": "^4.15.2",
+    "socket.io": "^1.3.6"
+  }
+}
