@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="bower_components/angular/angular.js">
+
+    </script>
+    <script src="script.js"> </script>
+  </head>
+
+<body ng-app="myModule">
+  <div ng-controller="myController">
+    <input type="Checkbox" ng-change="switch()" ng-model="Pay"/> Hide Salary
+    <br /><br />
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Gender</th>
+          <th>City</th>
+          <th ng-hide="hideSalary">Salary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="employee in employees">
+          <td> {{employee.name}} </td>
+          <td> {{employee.gender}} </td>
+          <td> {{employee.city}} </td>
+          <td ng-hide="hideSalary"> {{ employee.salary }} </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

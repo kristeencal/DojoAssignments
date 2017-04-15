@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<body>
+
+<div ng-app="myApp" ng-controller="arrCtrl">
+
+<ul>
+<li ng-repeat="x in cars | filter : 'A'">{{x}}</li>
+</ul>
+
+</div>
+
+<script>
+var app = angular.module('myApp', []);
+app.controller('arrCtrl', function($scope) {
+    $scope.cars = ["Aston Martin", "Audi", "Bentley", "BMW", "Bugatti"];
+});
+</script>
+
+<p>Return only the items that matches your filter.</p>
+
+</body>
+</html>
