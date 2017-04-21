@@ -2,7 +2,7 @@ angular.module("app", ["ui.router"])
 
     .config(function config($stateProvider) {
       $stateProvider.state("index", {
-          url: ""
+          url: "",
           controller: "FirstCtrl as first",
           templateUrl: "templates/first.html"
       })
