@@ -8,7 +8,7 @@
   </head>
   <body ng-controller='objectsController'>
     <h3>Products Controller</h3>
-    <div ng-controller="productsController">
+    <!-- <div ng-controller="productsController"> -->
         <form class="" method="post" ng-submit="add({name: productName, price: productPrice})">
           <input type="text" name="productName" value=""placeholder="Product Name" ng-model="productName"><br>
           <input type="text" name="productPrice" value="" placeholder="Product Price" ng-model="productPrice"><br>
@@ -28,8 +28,8 @@
               </tr>
             </tbody>
         </table>
-    </div>
-    <div ng-controller="ordersController">
+    <!-- </div> -->
+    <!-- <div ng-controller="ordersController"> -->
       <table>
         <thead>
           <th>Name</th>
@@ -41,11 +41,11 @@
           <tr ng-repeat="object in objects">
             <td>{{object.name}}</td>
             <td>{{object.price}}</td>
-            <td>{{object.qtyavailable}}</td>
+            <td>{{object.quantity}}</td>
             <td><button type="button" name="buy" ng-click="decrementQty(object)">Buy</button></td>
           </tr>
         </tbody>
       </table>
-    </div>
+    <!-- </div> -->
   </body>
 </html>

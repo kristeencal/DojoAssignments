@@ -1,0 +1,17 @@
+{
+  "name": "productsAndOrders",
+  "homepage": "https://github.com/kristeencal/DojoAssignments",
+  "authors": [
+    "ChristineI <kristeen.cal@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
